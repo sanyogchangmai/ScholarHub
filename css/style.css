@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+button:focus{
+    outline: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* ! Navbar */
+
+.navbar{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.brand-name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-item{
+    margin: auto 10px;
+    font-weight: bold;
+}
+.toogle-btn{
+    margin-right: 10px;
+}
+
+/* ! Intro section */
+
+.intro{
+    padding: 150px;
+    background-image: url("../assets/girl-01.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+}
+.title{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.intro-desc{
+    margin-top: 20px;
+    font-size: 25px;
+    max-width: 40%;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.action-btn{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    margin: auto 8px;
+    max-width: 200px;
+    padding: 10px 40px;
+    color: #000000;
+    background-color: #ffbc02;
+    border-radius: 5px;
+    border-style: none;
+    background-position: center;
+    transition: background 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.action-btn:hover {
+      background: #ffbc02 radial-gradient(circle, transparent 1%, #ffbc02 1%) center/15000%;
+    }
+.action-btn:active {
+    background-color: #eceff1;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+/* ! Courses  */
+.courses{
+    margin: 0 auto 100px;
+    font-family: 'Noto Sans', sans-serif;  
+}
+.course-title{
+    text-align: center;
+    font-weight: 600px;
+    background-color: #6930c3;
+    color: #ffffff;
+    padding: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.course-title-sub{
+    margin-left: 65px;
+    font-weight: 600px;
+    color: #6930c3;
+    font-weight: 700;
+}
+.filter{
+    margin: 25px 65px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter h4{
+    display: inline;
+}
+.dropdown{
+    display: inline;
+    margin: auto 10px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    padding: 5px 10px;
+    margin: 3px;
+}
+.dropdown-toggle{
+    color: black;
+}
+.dropdown-toggle:hover{
+    color: black;
+}
+.drop-filter:active{
+    outline: none;
+}
+.courses hr{
+    margin: 50px;
+}
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+.one,.two,.three,.four{
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.one{
+    background-image: linear-gradient(#3FCF0B ,#4BF50F);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.two{
+    background-image: linear-gradient(#042AAF ,#0B40FB);
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.three{
+    background-image: linear-gradient(#8E0BCA ,#B107FF );
+    padding: 20px 30px;
+    border-radius: 5px;  
+}
+.four{
+    background-image: linear-gradient(#B70609 ,#F70508);
+    padding: 20px 30px;
+    border-radius: 5px;    
+}
+.search{
+    width: 1000px;
+    margin: 30px auto 10px auto;
+    border-radius: 10px;
+    padding: 12px 25px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: #e6e6e6;
+}
+.course-row{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    margin: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+
+/* ! Partners */
+.partners{
+    margin: 200px auto;
+}
+.partners-title{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+.partners-desc{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    max-width: 40%;
+}
+.partner-logo{
+    list-style: none;
+    display: flex;
+    font-size: 80px;
+    color: #969292;
+}
+.fa-google,.fa-airbnb,.fa-discord,.fa-facebook,.fab fa-twitter{
+    margin: auto 30px;   
+}
+
+
+/* ! Footer */
+.footer{
+    background-color: #000000;
+    padding: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer-options{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-options li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer i{
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.fa-linkedin-in{
+    color:  #0077b5;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-twitter{
+    color: #00acee;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-facebook-f{
+    color: #3b5998;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+.copyright{
+    color: #ffffff; 
+}
+
+
+/* ! Media Queries */
+
+@media(max-width: 600px){
+    .intro{
+        padding: 20px;
+    }
+    .title{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .intro-desc{
+        font-size: 20px;
+        max-width: 220px;
+        margin: 50px auto 20px;
+    }
+    .action-btn{
+        padding: 10px 30px;
+        margin-bottom: 50px;
+    }
+    .left-btn{
+        margin-left: 40px;
+    }
+
+    .category{
+        margin: 20px;
+    }
+    .one,.two{
+        max-width: 150px;
+        margin: 5px auto;
+        font-size: 15px;
+    }
+    .three,.four{
+        max-width: 150px;
+        margin: 5px auto;
+        font-size: 15px;
+    }
+
+    .search{
+        width: 80%;
+        padding: auto 500px;
+        font-size: 15px;
+        margin-top: 30px;  
+    }
+
+    .course-title-sub{
+        text-align: center;
+        margin: auto;
+    }
+    .filter h4{
+        display: inline;
+        font-size: 15px;
+    }
+    .filter{
+        justify-content: space-evenly;
+    }
+
+    .partners{
+        margin: 20px auto;
+    }
+    .partners-desc{
+        max-width: 250px;
+    }
+
+    .footer-options{
+        flex-wrap: wrap; 
+        padding-left: 5px;
+    }
+    .footer-options .li{
+        margin: auto 10px;
+        font-size: 15px;
+    }
+    
+}
