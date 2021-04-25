@@ -272,4 +272,13 @@ a:hover{
     .two-left h5{
         margin-left: 20px;
     }
+
+    .footer-options{
+        flex-wrap: wrap; 
+        padding-left: 5px;
+    }
+    .footer-options .li{
+        margin: auto 15px;
+        font-size: 10px;
+    }
 }
