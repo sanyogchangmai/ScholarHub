@@ -40,6 +40,7 @@ a:hover{
 .intro{
     padding: 150px;
     background-image: url("../assets/large-grp.jpg");
+    object-fit: cover;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
