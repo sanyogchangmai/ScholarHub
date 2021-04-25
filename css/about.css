@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+
+button:focus{
+    outline: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* ! Navbar */
+
+.navbar{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px 0px, rgb(218,220,224) 0px -1px 0px 0px inset;
+}
+.brand-name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-item{
+    margin: auto 10px;
+    font-weight: bold;
+}
+.toogle-btn{
+    margin-right: 10px;
+}
+
+/* ! Intro section */
+.intro{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 150px;
+    background-image: url("../assets/conference.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+}
+.intro-title{
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+.news{
+    background-image: linear-gradient(#e84545,#be0000);
+    padding: 20px;
+}
+.news a{
+    color: #ffffff;
+}
+.news a:hover{
+    text-decoration: underline;
+}
+
+/* ! Values */
+.values{
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.value-title{
+    color: #58595a;
+    font-size: 40px;
+    text-align: center;
+    max-width: 40%;
+    margin: 100px auto 20px;
+}
+.value-desc{
+    color: #697172;
+    font-size: 20px;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto 100px;
+}
+.carousel-values{
+    margin: auto 200px;
+}
+
+/* ! data-section */
+.data-section{
+    background-color: #f3f4ed;
+    font-family: 'Noto Sans', sans-serif;
+}
+.data-title{
+    padding-top: 80px;
+}
+.data-head{
+    font-size: 40px;
+    text-align: center; 
+}
+.data-desc{
+    color: #697172;
+    font-size: 20px;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto 100px;
+}
+.row h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.data{
+    padding-bottom: 80px;
+}
+
+
+/* ! Benefits */
+.base-one{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.base-two{
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 600px){
+    .left{
+        width: 50%;
+    }
+    .right{
+        width: 50%;
+    }
+}
+
+.left{
+    flex-grow: 1;
+    background-image: linear-gradient(#126e82,#51c4d3);
+}
+.right{
+    flex-grow: 1;
+    padding: 30px auto;
+    width: 50%;
+    background-image: url("../assets/asian-girl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left h5,.right h5{
+    text-align: center;
+    font-size: 25px;
+    color: #ffcc29;
+    padding-top: 100px;
+}
+.left p{
+    margin-top: 50px;
+    font-size: 15px;
+    max-width: 500px;
+    color: #ffffff;
+}
+.right p{
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    max-width: 200px;
+    font-weight: 600;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.about-btn{
+    padding: 10px 20px;
+    border-color: #ffffff;
+    border-width: 2px;
+    color: #ffffff;
+    background-color: #126e82;
+    margin-bottom: 100px;
+}
+
+/* ! News-Letter */
+.news-letter{
+    background-color: #edeef7;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+
+/* ! Footer */
+.footer{
+    background-color: #000000;
+    padding: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer-options{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-options li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer i{
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.fa-linkedin-in{
+    color:  #0077b5;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-twitter{
+    color: #00acee;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-facebook-f{
+    color: #3b5998;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+.copyright{
+    color: #ffffff; 
+}
+
+
+
+
+/* ! Media Queries */
+
+@media(max-width: 600px){
+
+    /* ! Intro */
+    .intro{
+        padding-left: 60px;
+    }
+    .intro-title{
+        font-size: 40px;
+        margin-left: 30px;
+        max-width: 200px;
+    }
+    .value-title{
+        font-size: 30px;
+        max-width: 300px;
+    }
+    .value-desc{
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    /* ! Carousal */
+    .carousel-values{
+        margin: auto;
+    }
+
+    /* ! Benefits */
+    .left h5,.right h5{
+        padding: 70px 20px 0;
+    }
+    .left p{
+        margin: 20px 30px;
+    }
+
+
+    .footer-options{
+        flex-wrap: wrap; 
+        padding-left: 5px;
+    }
+    .footer-options .li{
+        margin: auto 10px;
+        font-size: 15px;
+    }
+    
+}
