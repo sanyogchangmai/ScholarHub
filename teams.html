@@ -1,176 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ScholarHub</title>
-
-    <!-- ! Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- ! CSS -->
-    <link rel="stylesheet" href="css/teams.css">
-
-    <!-- ! Font Awesome -->
+    <title>Team-Scholar's Hub</title>
+  <!-- ! Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Big+Shoulders+Stencil+Text:wght@500&family=Bitter&family=Dancing+Script:wght@600&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        body{
+            display:block;
+            font-family:"Arimo";
+            margin:0px;
+        }
+        h1{
+            color:wheat;
+        background-color: darkgreen;
+        display:block;
+        line-height: 1;
+        width:100%;
+        line-height: 2;
+        position:absolute;
+        margin:0px;
+        top:0px;
+        left: 0px;
+        right:0px;
+        box-shadow:0px 5px 10px black;
+        text-align: center;
+        }
+        h2,p{
+            padding-left:30px; 
+        }
+        h3{
+            margin:0px;
+            padding-left:30px;   
+            text-shadow:2px 2px 8px black;
+            color:orange;
+            text-decoration:underline;
+        }
+        .names{
+            text-shadow: 2px 2px 8px black;
+            color:wheat;
+            text-decoration:underline;
+        }
+        img{
+            width:250px;
+            height:250px;
+            border-width:20px;
+            border-color: black;
+            border-style: solid;
+            margin:0px;
+            
+        }
+        .adjust-top{
+            margin-top:64px;
+            
+        }
+        /* .column{
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        } */
+        .aditya{
+            background-color:blueviolet;
+            color:aqua;
+            font-size: 105%;
+        }
+        .sanyog{
+            background-color:deeppink;
+            color:navajowhite;
+            font-size: 105%;
+        }
+        .container.simran{
+            background-color:#cc0000;
+            color:yellow;
+            font-size: 105%;
+            /* width:1139px; */
+        }
+        /* .sim{
+            width:170px;
+        } */
+        .container{
+            display:block;
+            width: 100%;
+            /* width:1059px; */
+            
+        }
+        
+        .column{
+            display:flex;
+        justify-content: space-evenly;
+            left:0px;
+            right:0px;
+            color:aquamarine;
+        }
+        ul{
+           margin:0px;
+            padding-left:30px;
+            list-style:none;
+            text-decoration:underline;
+        }
+        
+        /* ! Footer */
+.footer{
+    background-color: #000000;
+    padding: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    border-top:5px solid green;
+}
+.footer-options{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-options li{
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer i{
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+.fa-linkedin-in{
+    color:  #0077b5;
+    border-radius: 50%;
+    padding: 10px;
+}
+.tweet{
+    color: #00acee;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-facebook-f{
+    color: #3b5998;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+.copyright{
+    color: #ffffff; 
+}
+
+    </style>
 </head>
 <body>
 
-    <!-- Navbar -->
+<h1>Our Team</h1>
+<div class="column">
+        
+        <img src="assets/AdityaJohorey.jpg" alt="Aditya" style="width:300" height="500" class="adjust-top">
+        
+      <div class="container aditya adjust-top" >
+        <h2 class="names">Aditya Johorey</h2>
+          <h3>Co-Founder</h3><br/>
+            <p class="aditya">From Praygraj,Uttar Pradesh,Currently Pursuing Btech from Lovely Professional University(2024),A machine learning enthusiaist.He has developed many projects using python programming languages and also intermediate programming in c, c++ and python also he has a keen interest in music and calisthenics.<br/></p>
+        <ul class="aditya">
+            <li>Email: adityajohorey@gmail.com</li>
+            <li><br></li>
+            <li>Ph no. : +91 98891-00333</li>
+        </ul>
+          
+        
+      </div>
+</div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand brand-name" href="#">ScholarHub</a>
-        <button class="navbar-toggler toogle-btn" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="material-icons">menu</i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teams.html">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+<div class="column">
+    
+    <div class="container sanyog">
+        <h2 class="names">Sanyog Changmai</h2>
+        <h3>Co-Founder</h3><br/>
+        <p class="sanyog">Computer Science and engineering undergraduate in Lovely Professional University.
+            MERN stack developer building valuable things on the web.<br/></p>
+        <ul class="sanyog">
+            <li>Email: sanyogc1@gmail.com</li>
+            <li><br></li>
+            <li>Ph no. : +91 70862-66936</li>
+        </ul>
+    </div> 
+    
+      <img src="assets/sanyog.jpeg" alt="Sanyog" style="width:300" height="500" class="san">
+    
+</div>
 
-    <!-- Navbar end -->
-
-    <!-- Intro -->
-    <section class="intro">
-        <div class="introduction">
-            <h1>
-                "It is literally true that you can succeed best and quickest by 
-                helping others to succeed."
-                <br>
-                 <i>–Napolean Hill</i>
-            </h1>
-            <br><br>
-            <p>Taking inspiration from the above quote of founders succeeded in building a platform which
-                not onl nurtures but also help people build skills from cheap affordable quality content.
-                With a motive of providing high quality and accessible education to turn every individual
-                into an asset for the nation.
-            
-            </p>
-        </div>
-    </section>
-
-    <!-- Teams -->
-    <section class="team">
-        <h1>Our Founders</h1>
-        <br>
-        <p>Visionary individuals who took the bold step and establised Scholars Hub</p>
-        <br><br>
-
-        <div class="person">
-
-            <div class="container one">
-                <div class="row">
-                  <div class="col-sm one-left">
-                    <center>
-                        <img src="assets/sanyog.jpeg" alt="">
-                    </center>
-                  </div>
-                  <div class="col-sm one-right">
-                    <h2>Aditya Johorey</h2>
-                    <h5>(Founder)</h5>
-                    <!-- <p class="title">(Founder)</p> -->
-                    <p class="desc">From Praygraj,Uttar Pradesh,Currently Pursuing Btech from Lovely 
-                      Professional University,A machine learning enthusiaist.He has developed 
-                      many projects using python programming languages and also intermediate programming 
-                      in C, C++ and python also he has a keen interest in music and calisthenics.
-                      <br><br>
-                      <a href="mailto:adityajohorey@gmail.com" class="email">Get in touch</a></p>
-                    <!-- <p><button class="button">98891-00333</button></p> -->
-                  </div>
-                </div>
-              </div>
-
-              <div class="container two">
-                <div class="row">
-                  <div class="col-sm two-left">
-                    <h2>Simran khurana</h2>
-                    <h5>(Chief Executive Officer, CEO)</h5>
-        <p class="desc">I am a computer science student at lovely    professional university and currently pursuing a bachelor’s in computer science engineering.
-        Being a technology enthusiast, I love to explore new technologies and leverage them to solve real-life problems. I'm driven by the will to create an impact and encourage diversity and inclusion in communities.
-        <br><br>
-        <a href="mailto:simrankhurana2699@gmail.com" class="email">Get in touch</a>
-        </p>
-        <!-- <p><button class="button">86830-61652</button></p> -->
-                  </div>
-                  <div class="col-sm two-right">
-                    <center>
-                        <img src="assets/sanyog.jpeg" alt="">
-                    </center>
-                  </div>
-                </div>
-              </div>
-
-              <div class="container three">
-                <div class="row">
-                  <div class="col-sm three-left">
-                    <center>
-                        <img src="assets/sanyog.jpeg" alt="">
-                    </center>
-                  </div>
-                  <div class="col-sm three-right">
-                    <h2>Sanyog Changmai</h2>
-                    <h5>(Co-Founder and President)</h5>
-        <p class="desc">Computer Science and engineering undergraduate in Lovely Professional University.
-        MERN stack developer building valuable things on the web.Experienced is creating beautiful and 
-        responsive user interface. Interest lies in Blockchain, AI, Progressive Web Apps.
-        Hobbies include photography and playing football.
-        <br><br>
-        <a href="mailto:sanyogc1@gmail.com" class="email">Get in touch</a>
-        </p>
-        <!-- <p><button class="button">70862-66936</button></p> -->
-                  </div>
-                </div>
-              </div>
-
-
-        </div>
-    </section>
-
-    <!-- News letter -->
-    <section class="news-letter">
-        <center>
-          <form class="form-signin">
-            <h1 class="h3 mb-3 font-weight-normal">Subscribe to our Newsletter</h1>
-            <label for="inputName" class="sr-only">Name</label>
-            <input type="text" id="inputName" class="form-control" placeholder="Full Name" required>
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-            <br>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Subscribe</button>
-          </form>
-        </center>
-      </section>
-
-
-
-
-
-
-    <!-- Footer -->
-
+<div class="column">
+    
+      <img src="assets/simran.jpeg" alt="Simran" style="width:300" height="500" class="sim">
+    
+    <div class="container simran">
+        <h2 class="names">Simran khurana</h2>
+        <h3>Co-Founder</h3><br/>
+        <p>I am a computer science student at lovely    professional university and currently pursuing a bachelor’s in computer science engineering.
+            Being a technology enthusiast, I love to explore new technologies and leverage them to solve real-life problems. I'm driven by the will to create an impact and encourage diversity and inclusion in communities.<br/></p>
+        <ul>
+            <li>Email: Simrankhurana2699@gmail.com<br/></li>
+            <li><br></li>
+            <li>Ph no. : +91 86830-61652</li>
+        </ul>
+      </div>
+  </div>
+<!--footer-->
     <section class="footer">
 
       <br>
@@ -178,15 +205,16 @@
       <ul class="footer-options">
         <li>Company</li>
         <li>Blog</li>
+        <!-- <li>Careers</li> -->
         <li>About Us</li>
         <li>Contact Us</li>
         <li>Privacy policy</li>
       </ul>
 
       <center>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter tweet"></i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
 
         <br>
       <p class="copyright">&copy; Copyright 2021</p>
@@ -203,6 +231,5 @@
     </section>
 
     <!-- Footer end -->
-    
 </body>
 </html>
